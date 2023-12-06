@@ -1,8 +1,10 @@
 //your JS code here. If required.
-// let year=prompt("input year");
+let y=prompt("gg");
+function daysOfAYear (y){
     if (year % 4 == 0||(year % 100 != 0 &&year % 400 == 0))
 {
-	alert(366);
+	return 365;
 }else{
-	alert(366);
+	return 366;
 }
+};
